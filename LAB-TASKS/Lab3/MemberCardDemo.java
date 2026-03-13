@@ -1,4 +1,4 @@
-package LAB1;
+package Lab3;
 public class MemberCardDemo
 {
     public static void main(String args[])

@@ -1,4 +1,4 @@
- package LAB1;
+ package Lab3;
 public class MemberCard
 {
     private static int counter=1;

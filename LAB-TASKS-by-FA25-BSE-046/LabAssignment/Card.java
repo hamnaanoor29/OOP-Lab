@@ -1,4 +1,4 @@
-package LabAssignment;
+
 public class Card{
     private final String SUIT;
     private final String RANK;

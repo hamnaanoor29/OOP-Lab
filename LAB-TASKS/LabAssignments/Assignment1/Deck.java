@@ -1,4 +1,4 @@
-package LabAssignment.Assignment1;
+package LabAssignments.Assignment1;
 
 import java.util.Random;
 

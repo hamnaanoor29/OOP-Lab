@@ -1,4 +1,4 @@
-package LabAssignments.Assignment1;
+package LabAssignments.Assignment;
 public class Card{
     private final String SUIT;
     private final String RANK;

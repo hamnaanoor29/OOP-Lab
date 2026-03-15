@@ -1,4 +1,4 @@
-package LabAssignments.Assignment1;
+package LabAssignments.Assignment;
 
 import java.util.Random;
 
@@ -30,12 +30,12 @@ public class Deck {
             cards[tempIndex] = temp;
         }
     }
-        public Card drawCard()
-        {
-            if(top < cards.length)
-                return cards[top++];
-            else
-                return null;
-        }
+    public Card drawCard()
+    {
+        if(top < cards.length)
+            return cards[top++];
+        else
+            return null;
+    }
 
 }

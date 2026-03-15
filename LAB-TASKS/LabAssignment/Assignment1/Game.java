@@ -1,4 +1,5 @@
-package LabAssignment;
+package LabAssignment.Assignment1;
+
 public class Game {
 
     Deck deck = new Deck();

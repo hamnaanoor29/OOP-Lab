@@ -1,4 +1,4 @@
-package LabAssignments.Assignment;
+package LabAssignments.Assignment1;
 
 public class Game {
 

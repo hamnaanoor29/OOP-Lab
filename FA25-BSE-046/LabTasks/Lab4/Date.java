@@ -1,4 +1,4 @@
-package Lab4;
+package LabTasks.Lab4;
 public class Date {
     private int day;
     private int month;

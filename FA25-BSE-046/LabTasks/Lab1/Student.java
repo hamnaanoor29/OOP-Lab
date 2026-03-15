@@ -1,4 +1,4 @@
-package Lab1;
+package LabTasks.Lab1;
 public class Student
 {
     String Name;

@@ -1,4 +1,4 @@
-package Lab2;
+package LabTasks.Lab2;
 public class Encap
 {
     int age;

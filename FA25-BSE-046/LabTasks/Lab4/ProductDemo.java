@@ -1,4 +1,4 @@
-package Lab4;
+package LabTasks.Lab4;
 public class ProductDemo {
     public static void main(String[] args) {
 

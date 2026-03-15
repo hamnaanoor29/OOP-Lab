@@ -1,4 +1,4 @@
-package Lab3;
+package LabTasks.Lab3;
 public class MemberCardDemo
 {
     public static void main(String args[])

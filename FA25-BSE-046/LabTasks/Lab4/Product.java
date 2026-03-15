@@ -1,4 +1,4 @@
-package Lab4;
+package LabTasks.Lab4;
 public class Product {
 
     private static int counter = 0;

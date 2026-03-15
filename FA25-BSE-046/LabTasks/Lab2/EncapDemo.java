@@ -1,4 +1,4 @@
-package Lab2;
+package LabTasks.Lab2;
 public class EncapDemo
 {
     public static void main (String args[])

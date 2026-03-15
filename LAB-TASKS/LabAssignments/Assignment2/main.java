@@ -1,1 +1,3 @@
-heyyy
+public class main{
+
+}

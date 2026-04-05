@@ -18,29 +18,31 @@ public class Main {
         }
 
         for(HomeAppliances appliance : appliances) {
+
             if(appliance instanceof WashingMachine) {
-                ((WashingMachine) appliance).setLoadCapacity(
-                        ((WashingMachine) appliance).getLoadCapacity() + 1
-                );
+                WashingMachine w = (WashingMachine) appliance;
+                w.setLoadCapacity(w.getLoadCapacity() + 1);
             }
+
             else if(appliance instanceof AirCooler) {
-                ((AirCooler) appliance).setFanSpeed(
-                        ((AirCooler) appliance).getFanSpeed() + 1
-                );
+                AirCooler a = (AirCooler) appliance;
+                a.setFanSpeed(a.getFanSpeed() + 1);
             }
         }
 
         for(HomeAppliances appliance : appliances) {
+
             if(appliance instanceof MicrowaveOven) {
                 MicrowaveOven mw = (MicrowaveOven) appliance;
+
                 if(mw.getTimer() < 10) {
                     mw.setTimer(mw.getTimer() + 2);
                 }
             }
         }
 
-
         System.out.println("---- Appliances After Modification ----");
+
         for(HomeAppliances appliance : appliances) {
             appliance.displayBrand();
             appliance.checkStatus();
